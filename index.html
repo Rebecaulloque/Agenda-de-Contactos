@@ -1,0 +1,46 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Contactos</title>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Head -->
+        <h2>Agenda de Contactos</h2>
+        <!-- Formulario de datos -->
+        <form>
+        <div class="formulario-datos">
+        
+            <input type="text" class="nombre" placeholder="Nombre" required>
+            <input type="number" class="numero" placeholder="Número de Teléfono" required>
+            <input type="text" class="direccion" placeholder="Dirección" required>
+            <button type="submit" class="btn-agregar-tarea">Agregar Contacto</button>
+        </form>
+
+        <!-- Listado de tareas -->
+        <div class="listado-tareas">
+            <div class="tarea">
+                <h3>Nombre</h3>
+                <h3>Teléfono</h3>
+                <h3>Dirección</h3>
+                <span class="material-icons">
+                    delete_forever
+                </span>
+            </div>
+
+        </div>
+
+        </div>
+
+    </div>
+    <script src="funciones.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
